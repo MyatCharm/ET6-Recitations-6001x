@@ -53,7 +53,7 @@ Created on Wed Feb 19 13:38:16 2025
 # 6. Return a tuple of the two dictionaries: (intersect, difference).
 
 #def dict_interdiff(d1, d2):
-    '''
+  '''
     d1, d2: Dictionaries with integer keys and values.
     Returns: A tuple (intersect, difference):
       - intersect: Dictionary of common keys with function `f` applied to values.
@@ -63,7 +63,6 @@ Created on Wed Feb 19 13:38:16 2025
     # Declare empty dictionaries for intersection and difference
     
     # Get keys from both dictionaries
-   
 
     # Compute intersection (apply function f to common keys)
     
@@ -72,4 +71,3 @@ Created on Wed Feb 19 13:38:16 2025
     
 
     # Compute difference (keys in d2 but not in d1)
-   

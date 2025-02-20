@@ -3,7 +3,6 @@
 
 # This function takes in a dictionary and an integer and returns a list.
 # This is trick problem you should figure out how it is!
-		 		    		
 #def keysWithValue(aDict, target):
     result_list = []
     '''
@@ -61,4 +60,3 @@ def keysWithValue(aDict, target):
     return result_list  # Return the sorted list
 aDict = {5: 1, 3: 90, 4: 90, 12: 90, 22: 90, 21: 100}
 print(keysWithValue(aDict, 90))
-
