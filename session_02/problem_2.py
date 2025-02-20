@@ -13,6 +13,7 @@ Instructions:
 3. Check if the word is the same when reversed.
 4. Print "It's a palindrome!" if true, otherwise print "Not a palindrome."
 """
+
 # Get user input
 word = input("Enter a word: ")
 
@@ -24,4 +25,3 @@ if word == word[::-1]:
     print("It's a palindrome!")
 else:
     print("Not a palindrome.")
-
